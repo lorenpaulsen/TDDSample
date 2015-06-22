@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{48EFC148-F96A-4438-8041-5E15CB3932DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{D005A5C9-5EEF-47AD-BB1C-2CBE919B9F53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9A965539-B079-49F7-BC32-320C0007FB24}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient.Core", "WebServiceClient.Core\WebServiceClient.Core.csproj", "{29C59BA4-547A-48F7-9760-EE72C5844D1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient.Service", "WebServiceClient.Service\WebServiceClient.Service.csproj", "{4A52FC89-2FE5-4724-B008-EDC93C6BA6BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient.Web", "WebServiceClient.Web\WebServiceClient.Web.csproj", "{BA989A0F-3A9D-4E2E-8A9A-56D362671375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient.Web.Tests", "WebServiceClient.Web.Tests\WebServiceClient.Web.Tests.csproj", "{9128A74E-B9E4-4D9D-912D-702AE793D3A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient.Core.Tests", "WebServiceClient.Providers.GeoNames.Tests\WebServiceClient.Core.Tests.csproj", "{FBF1E116-8456-438E-A5A0-A642729FE58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceClient.Service.Tests", "WebServiceClient.Service.Tests\WebServiceClient.Service.Tests.csproj", "{C05CD487-D0AE-411E-A8AB-DFD4EEB5059E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mapscu.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebServiceClient.Core\\WebServiceClient.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = WebServiceClient.sln
+		SccProjectName1 = WebServiceClient.Core
+		SccLocalPath1 = WebServiceClient.Core
+		SccProjectUniqueName2 = WebServiceClient.Service\\WebServiceClient.Service.csproj
+		SccProjectTopLevelParentUniqueName2 = WebServiceClient.sln
+		SccProjectName2 = WebServiceClient.Service
+		SccLocalPath2 = WebServiceClient.Service
+		SccProjectUniqueName3 = WebServiceClient.Web.Tests\\WebServiceClient.Web.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = WebServiceClient.sln
+		SccProjectName3 = WebServiceClient.Web.Tests
+		SccLocalPath3 = WebServiceClient.Web.Tests
+		SccProjectUniqueName4 = WebServiceClient.Web\\WebServiceClient.Web.csproj
+		SccProjectName4 = WebServiceClient.Web
+		SccLocalPath4 = WebServiceClient.Web
+		SccProjectUniqueName5 = WebServiceClient.Service.Tests\\WebServiceClient.Service.Tests.csproj
+		SccProjectTopLevelParentUniqueName5 = WebServiceClient.sln
+		SccProjectName5 = WebServiceClient.Service.Tests
+		SccLocalPath5 = WebServiceClient.Service.Tests
+		SccProjectUniqueName6 = WebServiceClient.Providers.GeoNames.Tests\\WebServiceClient.Core.Tests.csproj
+		SccProjectTopLevelParentUniqueName6 = WebServiceClient.sln
+		SccProjectName6 = WebServiceClient.Providers.GeoNames.Tests
+		SccLocalPath6 = WebServiceClient.Providers.GeoNames.Tests
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C59BA4-547A-48F7-9760-EE72C5844D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C59BA4-547A-48F7-9760-EE72C5844D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C59BA4-547A-48F7-9760-EE72C5844D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C59BA4-547A-48F7-9760-EE72C5844D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A52FC89-2FE5-4724-B008-EDC93C6BA6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A52FC89-2FE5-4724-B008-EDC93C6BA6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A52FC89-2FE5-4724-B008-EDC93C6BA6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A52FC89-2FE5-4724-B008-EDC93C6BA6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA989A0F-3A9D-4E2E-8A9A-56D362671375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA989A0F-3A9D-4E2E-8A9A-56D362671375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA989A0F-3A9D-4E2E-8A9A-56D362671375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA989A0F-3A9D-4E2E-8A9A-56D362671375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9128A74E-B9E4-4D9D-912D-702AE793D3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9128A74E-B9E4-4D9D-912D-702AE793D3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9128A74E-B9E4-4D9D-912D-702AE793D3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9128A74E-B9E4-4D9D-912D-702AE793D3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF1E116-8456-438E-A5A0-A642729FE58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF1E116-8456-438E-A5A0-A642729FE58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF1E116-8456-438E-A5A0-A642729FE58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF1E116-8456-438E-A5A0-A642729FE58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C05CD487-D0AE-411E-A8AB-DFD4EEB5059E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C05CD487-D0AE-411E-A8AB-DFD4EEB5059E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C05CD487-D0AE-411E-A8AB-DFD4EEB5059E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C05CD487-D0AE-411E-A8AB-DFD4EEB5059E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29C59BA4-547A-48F7-9760-EE72C5844D1D} = {D005A5C9-5EEF-47AD-BB1C-2CBE919B9F53}
+		{4A52FC89-2FE5-4724-B008-EDC93C6BA6BE} = {D005A5C9-5EEF-47AD-BB1C-2CBE919B9F53}
+		{9128A74E-B9E4-4D9D-912D-702AE793D3A3} = {48EFC148-F96A-4438-8041-5E15CB3932DE}
+		{FBF1E116-8456-438E-A5A0-A642729FE58A} = {48EFC148-F96A-4438-8041-5E15CB3932DE}
+		{C05CD487-D0AE-411E-A8AB-DFD4EEB5059E} = {48EFC148-F96A-4438-8041-5E15CB3932DE}
+	EndGlobalSection
+EndGlobal
